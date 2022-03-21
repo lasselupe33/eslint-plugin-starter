@@ -19,7 +19,6 @@
     "eslint:plugin": "yarn eslint:files 'src/**/*.{ts,tsx}' --ignore-pattern '**/tests/**/*.ts' --ignore-pattern '**/tests/**/*.tsx'",
     "eslint:tests": "yarn eslint:files 'src/**/tests/**/*.{ts,tsx}'",
     "eslint:dummy": "yarn eslint:files 'dummy/**/*.{json,ts,tsx}'",
-    "prepare": "husky install",
     "test": "jest --cache --config=.jestrc.json",
     "type-check": "tsc --noEmit"
   },
@@ -39,11 +38,8 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-starter": "link:./",
-    "husky": "^7.0.4",
     "jest": "^27.5.1",
-    "lint-staged": "^12.3.7",
     "prettier": "^2.6.0",
-    "tsc-files": "^1.1.3",
     "typescript": "^4.6.2"
   },
   "peerDependencies": {
